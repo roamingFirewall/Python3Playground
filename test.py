@@ -8,12 +8,12 @@ def rot_alpha(n, s):
     return s.translate(lookup)
 
 
-with open('input.txt', 'r') as f: 
+with open('input.txt', 'r') as f:
     for line in f:
         print( rot_alpha(13, line.strip()) )
 
 
-
+print('shutting down')
 
 
 
